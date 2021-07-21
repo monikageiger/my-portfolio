@@ -1,5 +1,5 @@
 body {
-  background-color: #e7d8c9;
+  background-color: #f8edeb;
   padding-top: 65px;
 }
 
@@ -62,7 +62,7 @@ h1 {
   top: 0;
   /* Position the navbar at the top of the page */
   width: 100%;
-  background-color: #e7d8c9;
+  background-color: #f8edeb;
 }
 
 .navbar a {
@@ -74,4 +74,13 @@ h1 {
 
 .navbar a:hover {
   background-color: rgb(108, 117, 125, 0.3);
+}
+
+.introduction {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  padding: 50px;
+  border-radius: 20px;
 }
