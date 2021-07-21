@@ -15,13 +15,15 @@ img {
 .pages-display {
   display: flex;
   flex-wrap: wrap;
-  align-content: flex-start;
+  flex-direction: row;
+  align-content: center;
+  align-items: center;
+  justify-content: space-evenly;
   margin: 10px;
 }
 
 .pages-box {
   display: flex;
-  justify-content: center;
   flex-direction: column;
   align-items: center;
   margin: 10px;
@@ -64,6 +66,10 @@ h1 {
   width: 100%;
   background-color: #f8edeb;
 }
+
+/* .mystyle {
+  background-color: rgb(108, 117, 125, 0.3);
+} */
 
 .navbar a {
   padding: 10px;

@@ -26,3 +26,13 @@ let npmPage = document.getElementById('npmPage')
 npmPage.onclick = function () {
     window.open('https://monikageiger.github.io/lab-html-exercise/');
 }
+
+// let nav = document.querySelector('.navbarcolor')
+// // nav.onscroll = function () {
+// //     nav.classList.toggle("mystyle")
+// // }
+
+// window.addEventListener('scroll', (event) => {
+//     console.log('Scrolling...');
+//     nav.classList.toggle("mystyle")
+// });
