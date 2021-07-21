@@ -1,16 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Monika</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <title>Hello, world!</title>
 </head>
 
 <body>
-    <h1>Monika</h1>
+    <div class="whole-body">
+        <div class="navbar navbar-main">
+            <nav class="navbar navbar-expand-lg navbar-light fixed-top navbarcolor bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="./index.html">Monika Geiger</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    Pages
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="https://limitless-sands-52333.herokuapp.com/"
+                                            target="_blank">Campgrounds</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://monikageiger.github.io/yahtzee-game-react/"
+                                            target="_blank">Yahtzee
+                                            app</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://monikageiger.github.io/pokemon-images-displayer/"
+                                            target="_blank">Pokemon
+                                            app</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://monikageiger.github.io/ping-pong-score-keeper/"
+                                            target="_blank">Ping Pong
+                                            app</a></li>
+                                    <li><a class="dropdown-item"
+                                            href="https://monikageiger.github.io/lab-html-exercise/" target="_blank">NPM
+                                            Copy</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        <div class="hero">
+            <div id="me">
+                <h2>Wannabe web developer</h2>
+                <section>I created this page so I can show all of you what I was able to create so far.</section>
+            </div>
+            <div class="pages-display">
+
+                <div class="pages-box">
+                    <h3>Campground app</h3>
+                    <img id="campgrPage"
+                        src="https://res.cloudinary.com/dokngwymo/image/upload/v1626875038/portfolio/Screenshot_2021-07-21_at_15.43.16_rsufng.png"
+                        alt="campground-picture">
+                </div>
+
+                <div class="pages-box">
+                    <h3>Yahtzee game</h3>
+                    <img id="yahtzeePage"
+                        src="https://res.cloudinary.com/dokngwymo/image/upload/v1626873225/portfolio/Screenshot_2021-07-21_at_15.10.47_ilsau2.jpg"
+                        alt="yahtzee-picture">
+                </div>
+
+                <div class="pages-box">
+                    <h3>Pokemon display page</h3>
+                    <img id="pokemonPage"
+                        src="https://res.cloudinary.com/dokngwymo/image/upload/v1626874613/portfolio/Screenshot_2021-07-21_at_15.35.47_bh3tys.png"
+                        alt="pokemon-picture">
+                </div>
+
+                <div class="pages-box">
+                    <h3>Ping Pong score keeper</h3>
+                    <img id="pingpongPage"
+                        src="https://res.cloudinary.com/dokngwymo/image/upload/v1626874822/portfolio/Screenshot_2021-07-21_at_15.39.41_dyqngo.png"
+                        alt="pingpong-game-picture">
+                </div>
+
+                <div class="pages-box">
+                    <h3>NPM Website Copy</h3>
+                    <img id="npmPage"
+                        src="https://res.cloudinary.com/dokngwymo/image/upload/v1626878229/portfolio/Screenshot_2021-07-21_at_16.36.43_xzry1f.png"
+                        alt="npm-page-picture">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+    <script src="app.js"></script>
+
 </body>
 
 </html>

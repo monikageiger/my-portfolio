@@ -1,0 +1,70 @@
+body {
+  background-image: url("https://res.cloudinary.com/dokngwymo/image/upload/v1626872767/portfolio/bg1_nymnoa.png");
+  height: 200px;
+  /* opacity: 0.5; */
+  /* You must set a specified height */
+  background-position: top;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* background-attachment: fixed */
+  background-attachment: fixed;
+  padding-top: 65px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+}
+
+.pages-display {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin: 10px;
+}
+
+.pages-box {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  background-color: white;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+#me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-size: 4em;
+}
+
+.navbarcolor {
+  position: fixed;
+  /* Set the navbar to fixed position */
+  top: 0;
+  /* Position the navbar at the top of the page */
+  width: 100%;
+}
+
+.navbar a {
+  padding: 10px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+
+.navbar a:hover {
+  background-color: rgb(108, 117, 125, 0.3);
+}
