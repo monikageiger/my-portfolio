@@ -70,31 +70,65 @@ img {
   background-color: rgb(108, 117, 125, 0.3);
 }
 
-.introduction {
-  display: flex;
-  flex-direction: column;
+/* .introduction {
   background-color: white;
   border-radius: 25px;
   padding: 10px 40px;
   margin: 0px 250px 0px 250px;
-}
+} */
 
-h1 {
+/* h1 {
   font-size: 3em;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-}
+} */
 
-h1 b {
+/* h1 b {
   font-size: 1.5em;
-}
+} */
 
 
-.intro {
+/* .intro {
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
   align-self: center;
   align-content: center;
   justify-content: center;
+} */
+
+@media only screen and (max-width: 1000px) {
+  .introduction {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin: 0px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+
+
+}
+
+@media only screen and (min-width: 1001px) {
+  .introduction {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px 40px;
+    margin: 0px 250px 0px 250px;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+  }
+
 }
